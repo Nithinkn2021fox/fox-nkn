@@ -20,37 +20,39 @@
     "env": {
         "BOT_TOKEN": {
             "description": "Your bot token.",
-            "value": ""
+            "value": "5062153432:AAEQukQ-9U_IsiyMHw46xNAimBVv2clHmGs"
         },
         "API_ID": {
             "description": "Get this value from https://my.telegram.org",
-            "value": ""
+            "value": "7979449"
         },
         "API_HASH": {
             "description": "Get this value from https://my.telegram.org",
-            "value": ""
+            "value": "366f27b81cdbda68674c48734382bb3a"
         },
         "CHANNELS": {
             "description": "Username or ID of channel or group. Separate multiple IDs by space.",
-            "value": ""
+            "value": "-1001501023878"
         },
         "ADMINS": {
             "description": "Username or ID of Admin. Separate multiple Admins by space.",
-            "value": ""
+            "value": "1947741382"
         },
         "AUTH_USERS": {
             "description": "Username or ID of users to give access of inline search. Separate multiple users by space.\nLeave it empty if you don't want to restrict bot usage.",
-            "value": "",
+            "value": "1947741382",
             "required": false
         },
         "FORCES_SUB": {
             "description": "ID of channel.Make sure bot is admin in this channel. Without subscribing this channel users cannot use bot.",
-            "value": "",
+            "value": "-1001670004589",
             "required": false
         },
         "START_MSG": {
             "description": "Welcome message for start command",
-            "value": "**Hi, I'm Auto Filter Bot With Greater Abilities**",
+            "value": "**Hi, I'm Auto Filter Bot With Greater Abilities**
+            
+            nkn8281@insta",
             "required": false
         },
         "USE_CAPTION_FILTER": {
@@ -60,7 +62,7 @@
         },
         "OMDB_API_KEY": {
             "description": "Your OMBD API KEY, Fill if you want to generate a imdb poster of movie in autofilter.",
-            "value": "",
+            "value": "de9fb080",
             "required": false
         },
         "CUSTOM_FILE_CAPTION": {
@@ -75,7 +77,7 @@
         },
         "DATABASE_2": {
             "description": "mongoDB URI. Get this value from https://www.mongodb.com ",
-            "value": ""
+            "value": "mongodb+srv://Nkn:Nkn@cluster0.pff67.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
         },
         "BOT_NAME": {
             "description": "Name of the database in mongoDB ",
@@ -98,17 +100,17 @@
         },
         "DATABASE_1": {
             "description": "Broadcast Group Database",
-            "value": "",
+            "value": "mongodb+srv://Nkn:Nkn@cluster0.pff67.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
             "required": true
         },
         "ADMIN_ID": {
             "description": "Control BroadCast",
-            "value": "",
+            "value": "1947741382",
             "required": true
         },
         "BROADCAST_CHANNEL": {
             "description": "ID of a Channel (user Notification)",
-            "value": "",
+            "value": "-1001670004589",
             "required": true
         }
     },
